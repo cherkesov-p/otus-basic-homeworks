@@ -43,3 +43,5 @@ def filter_numbers(numbers, filter_type):
         return list(filter(lambda x: (x % 2 == 0), numbers))
     elif filter_type == PRIME:
         return list(filter(is_prime, numbers))
+    else:
+        raise ValueError('Value filter_type is not correct')
