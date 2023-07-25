@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "homework-04"
+version = "0.1.0"
+description = ""
+authors = ["Петр Черкесов <petr.cherkesov@playrix.com>"]
+readme = "README.md"
+#packages = [{include = "homework_04"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+sqlalchemy = "1.4"
+faker = "^18.11.1"
+aiohttp = "^3.8.4"
+asyncio = "^3.4.3"
+asyncpg = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
